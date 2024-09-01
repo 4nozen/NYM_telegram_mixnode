@@ -1,5 +1,5 @@
 ### NYM_telegram_mixnode
-## telegrame mixnode monitor<br>
+## telegram mixnode monitor<br>
 ![image](https://github.com/user-attachments/assets/4b4a197a-220e-4c6a-a836-5617cb9a9048)
 ![image](https://github.com/user-attachments/assets/e1301fa5-b5d2-481a-85bb-90f4b6f8b5e3)
 

@@ -1,12 +1,12 @@
-## NYM_telegram_mixnode
-# telegrame mixnode monitor<br>
+### NYM_telegram_mixnode
+## telegrame mixnode monitor<br>
 ![image](https://github.com/user-attachments/assets/4b4a197a-220e-4c6a-a836-5617cb9a9048)
 ![image](https://github.com/user-attachments/assets/e1301fa5-b5d2-481a-85bb-90f4b6f8b5e3)
 
-# You can try it here https://t.me/nym_mixnode_monitor_bot
+## You can try it here https://t.me/nym_mixnode_monitor_bot
 
 
-# self installation
+## self installation
 1. sudo apt install python3 python-dotenv: This command installs Python 3 and the python-dotenv package on a Linux system using the APT package manager. python-dotenv is used for loading environment variables from a .env file.<br>
 `sudo apt install python3 python-dotenv`
 

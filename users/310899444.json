@@ -1,0 +1,886 @@
+{
+    "telegram": {
+        "username": "bumpmeup",
+        "lang": "ru",
+        "currency": ""
+    },
+    "mixnodes": [
+        {
+            "info": {
+                "mix_id": 1796,
+                "location": {
+                    "two_letter_iso_country_code": "IS",
+                    "three_letter_iso_country_code": "ISL",
+                    "country_name": "Iceland",
+                    "latitude": 64.0606,
+                    "longitude": -21.9451
+                },
+                "status": "inactive",
+                "pledge_amount": {
+                    "denom": "unym",
+                    "amount": "275213489"
+                },
+                "total_delegation": {
+                    "denom": "unym",
+                    "amount": "251145744247"
+                },
+                "owner": "n1p0u2y3sjflm9v2vvdx2uj8p55luyfx7rp5p7mg",
+                "layer": 3,
+                "mix_node": {
+                    "host": "89.221.224.79",
+                    "mix_port": 1789,
+                    "verloc_port": 1790,
+                    "http_api_port": 8080,
+                    "sphinx_key": "36u38xfpdbbdKsnPjUkbWg8WeLH3EfevDxd9nLLzdC7F",
+                    "identity_key": "F618gw6jZaLR1VdMTeaH11MhHQJY5rdpYEDLrMKEHcjk",
+                    "version": "1.1.5"
+                },
+                "stake_saturation": 0.25036228,
+                "uncapped_saturation": 0.25036228,
+                "avg_uptime": 100,
+                "node_performance": {
+                    "most_recent": "1",
+                    "last_hour": "1",
+                    "last_24h": "1"
+                },
+                "estimated_operator_apy": 0.0,
+                "estimated_delegators_apy": 0.0,
+                "operating_cost": {
+                    "denom": "unym",
+                    "amount": "40000000"
+                },
+                "profit_margin_percent": "0.1",
+                "family_id": null,
+                "blacklisted": false
+            },
+            "delegations": [
+                {
+                    "owner": "n1rnxpdpx3kldygsklfft0gech7fhfcux4zst5lw",
+                    "mix_id": 1796,
+                    "cumulative_reward_ratio": "0",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "250000000000"
+                    },
+                    "height": 13856900,
+                    "proxy": null
+                }
+            ],
+            "stats": {
+                "update_time": "2024-09-01T16:10:03.623592909Z",
+                "previous_update_time": "2024-09-01T16:09:33.622719467Z",
+                "packets_received_since_startup": 175959128,
+                "packets_sent_since_startup": 175695453,
+                "packets_explicitly_dropped_since_startup": 212259,
+                "packets_received_since_last_update": 0,
+                "packets_sent_since_last_update": 0,
+                "packets_explicitly_dropped_since_last_update": 0
+            }
+        },
+        {
+            "info": {
+                "mix_id": 555,
+                "location": {
+                    "two_letter_iso_country_code": "MX",
+                    "three_letter_iso_country_code": "MEX",
+                    "country_name": "Mexico",
+                    "latitude": 19.4203,
+                    "longitude": -99.1193
+                },
+                "status": "inactive",
+                "pledge_amount": {
+                    "denom": "unym",
+                    "amount": "982831234"
+                },
+                "total_delegation": {
+                    "denom": "unym",
+                    "amount": "315626418202"
+                },
+                "owner": "n1gpxnte8z6q654n9g57aq4jg3d6mx7m72rfs367",
+                "layer": 1,
+                "mix_node": {
+                    "host": "45.134.9.11",
+                    "mix_port": 1789,
+                    "verloc_port": 1790,
+                    "http_api_port": 8000,
+                    "sphinx_key": "CoHnCoTcPt75thhAf51txHSZndamQTtzDeHSN9XyC1yY",
+                    "identity_key": "2H8tzudyeKG4R19Xy4ufusShmA8EvUzskXJw4JVYZVze",
+                    "version": "1.1.5"
+                },
+                "stake_saturation": 0.31527606,
+                "uncapped_saturation": 0.31527606,
+                "avg_uptime": 99,
+                "node_performance": {
+                    "most_recent": "1",
+                    "last_hour": "1",
+                    "last_24h": "1"
+                },
+                "estimated_operator_apy": 0.0,
+                "estimated_delegators_apy": 0.0,
+                "operating_cost": {
+                    "denom": "unym",
+                    "amount": "800000000"
+                },
+                "profit_margin_percent": "0.2",
+                "family_id": null,
+                "blacklisted": false
+            },
+            "delegations": [
+                {
+                    "owner": "n1002sgpvpjammd786gtsn7yw2llr9vhhvnrdsmm",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "2101584350"
+                    },
+                    "height": 4539190,
+                    "proxy": null
+                },
+                {
+                    "owner": "n12vlwnukhd7n2627hs9aj8y5lljnvmslhjssxvr",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "30511697.56828018999228162",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "445000000"
+                    },
+                    "height": 5519732,
+                    "proxy": null
+                },
+                {
+                    "owner": "n165e6ju2gel4xtvpvxf63rjmq8vq9h3mcm2vy49",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "29605929.143860339845085374",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1071157639"
+                    },
+                    "height": 5496397,
+                    "proxy": null
+                },
+                {
+                    "owner": "n17dhxatzpv9pa884e9s2trlta82h6tyarj5y0g5",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "189793407.626919268999599953",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1188000000"
+                    },
+                    "height": 11097663,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1833dqd669lkmzrzgx2ef5w2x7x9yh77rqpyz2k",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1377000000"
+                    },
+                    "height": 4770182,
+                    "proxy": null
+                },
+                {
+                    "owner": "n189hzndm0dnh39hucfluqwrgggc72ezkty0ajgj",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "104242686.735018207805784334",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "285004946"
+                    },
+                    "height": 7642773,
+                    "proxy": null
+                },
+                {
+                    "owner": "n19gkmj6hv5635zvtqjmqejr7hknufk7amcs94gl",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "16879977.397848033096552554",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "240008292"
+                    },
+                    "height": 5001041,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1aduzez93var64mwm5pxt5kmuuz0dm4jk5l2f74",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "207564245.176678188419500227",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "11949735150"
+                    },
+                    "height": 13491600,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1ft938dqusxhu4ul7ec05yjpfyd6c8hn6yudztd",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "21725868.095683029013919301",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "157188511"
+                    },
+                    "height": 5274504,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1gl8davksta798a36tu4hmduul9nrxnt5ler88u",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "35527201.83900972703221089",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "304500000"
+                    },
+                    "height": 5663485,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1hmxfppqyqw0kvctdse2ua83mxu6pf5t3kpseq2",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "4011843644"
+                    },
+                    "height": 4544252,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1hn2m3k9ya52uvzvmcmtzws5yalfj3v42yw7u46",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "19689074.228006417528681694",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "95000000"
+                    },
+                    "height": 5215261,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1hpkykvv5j2sjscfcj3rgr8hxjwu0mlt4uk2ylf",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "199920227.882902554930820227",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "6942684142"
+                    },
+                    "height": 12385363,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1kc2yqqyrpez9xkwdq870a0yka3sgwwgq6676ac",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "210323659.430189171704195097",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "487302850"
+                    },
+                    "height": 13900562,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1p25gkq757j53rd632wsthkwqqtpg2smmvd4ehc",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "31931393.553153790420129727",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1137244078"
+                    },
+                    "height": 5558845,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1pnf9uk7edw36el9sdg2kar49kmyy7llkv5plhl",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "156399382.049357374914118922",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1204104081"
+                    },
+                    "height": 9668937,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1qdwsctzmvd647nve3f42hu84cakpgllmdc95rh",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "144679337.517825645881079715",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "270004038"
+                    },
+                    "height": 9263411,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1ql5n2dlkxky8x33g3ssck496q3l8zn34tf55hp",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "2385992101"
+                    },
+                    "height": 6777901,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1rnxpdpx3kldygsklfft0gech7fhfcux4zst5lw",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209925097.834029059964870047",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "250000000000"
+                    },
+                    "height": 13856900,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1rr5rsxw3q9na36xzls5m3tdqkje296dh6kdyup",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "157298067.161335659701179615",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1833870373"
+                    },
+                    "height": 9702002,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1ruzp0840hhy8n83tse5ugmymncdtdmcyypggga",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "157339097.422742308115425834",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "115171692"
+                    },
+                    "height": 5650246,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1vspmxtphxtfwc2dqhfzh9nhhjmuws8zenalg6a",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1258026594"
+                    },
+                    "height": 6128223,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1vw9yq7leghzdt00lgn2zx8hqkvfk85dthdx9gm",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "48925647.327676707651229831",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "229203647"
+                    },
+                    "height": 6041664,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1xnnxx3fhl96sf6k2ggewgde6mznqgk7w9d5y0f",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "190172400.163680408006010984",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1080969847"
+                    },
+                    "height": 5183737,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1zyhzulafd6lyn3csrkc3h7tkqejk0g7cts7pal",
+                    "mix_id": 555,
+                    "cumulative_reward_ratio": "209924387.959346493140300493",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "23284938367"
+                    },
+                    "height": 13841506,
+                    "proxy": null
+                }
+            ],
+            "stats": {
+                "update_time": "2024-09-01T16:10:23.875727215Z",
+                "previous_update_time": "2024-09-01T16:09:53.874224040Z",
+                "packets_received_since_startup": 218922221,
+                "packets_sent_since_startup": 218324174,
+                "packets_explicitly_dropped_since_startup": 185854,
+                "packets_received_since_last_update": 0,
+                "packets_sent_since_last_update": 0,
+                "packets_explicitly_dropped_since_last_update": 0
+            }
+        },
+        {
+            "info": {
+                "mix_id": 900,
+                "location": {
+                    "two_letter_iso_country_code": "IS",
+                    "three_letter_iso_country_code": "ISL",
+                    "country_name": "Iceland",
+                    "latitude": 65.0,
+                    "longitude": -18.0
+                },
+                "status": "inactive",
+                "pledge_amount": {
+                    "denom": "unym",
+                    "amount": "5018973342"
+                },
+                "total_delegation": {
+                    "denom": "unym",
+                    "amount": "266710233108"
+                },
+                "owner": "n1jv3wvcspznxr2tu5fznsjprmrdlwhl9jndmavz",
+                "layer": 3,
+                "mix_node": {
+                    "host": "185.247.226.124",
+                    "mix_port": 1789,
+                    "verloc_port": 1790,
+                    "http_api_port": 8080,
+                    "sphinx_key": "CtMEi5ZoU8jXJeW3Hr9sisfwKEiY8fZwfpsvRMH1Eiar",
+                    "identity_key": "EdHVMTXpLiBbvCUnEoSPQ86pBNY1h9HtL34Q7cpNPWCy",
+                    "version": "1.1.5"
+                },
+                "stake_saturation": 0.270585,
+                "uncapped_saturation": 0.270585,
+                "avg_uptime": 98,
+                "node_performance": {
+                    "most_recent": "1",
+                    "last_hour": "1",
+                    "last_24h": "0.98"
+                },
+                "estimated_operator_apy": 0.0,
+                "estimated_delegators_apy": 0.0,
+                "operating_cost": {
+                    "denom": "unym",
+                    "amount": "800000000"
+                },
+                "profit_margin_percent": "0.2",
+                "family_id": null,
+                "blacklisted": false
+            },
+            "delegations": [
+                {
+                    "owner": "n1jv3wvcspznxr2tu5fznsjprmrdlwhl9jndmavz",
+                    "mix_id": 900,
+                    "cumulative_reward_ratio": "120982374.778442843509310332",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "7909560491"
+                    },
+                    "height": 14201237,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1rnxpdpx3kldygsklfft0gech7fhfcux4zst5lw",
+                    "mix_id": 900,
+                    "cumulative_reward_ratio": "109827716.702177008028087402",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "250000000000"
+                    },
+                    "height": 10828381,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1yfj2xwwejvpvekq9m67ydx3av0j32z9ec9wah0",
+                    "mix_id": 900,
+                    "cumulative_reward_ratio": "99752355.248130420262646668",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "6140122917"
+                    },
+                    "height": 12560049,
+                    "proxy": null
+                }
+            ],
+            "stats": {
+                "update_time": "2024-09-01T16:10:09.044162558Z",
+                "previous_update_time": "2024-09-01T16:09:39.042599977Z",
+                "packets_received_since_startup": 203339286,
+                "packets_sent_since_startup": 203213109,
+                "packets_explicitly_dropped_since_startup": 119138,
+                "packets_received_since_last_update": 0,
+                "packets_sent_since_last_update": 0,
+                "packets_explicitly_dropped_since_last_update": 0
+            }
+        },
+        {
+            "info": {
+                "mix_id": 99,
+                "location": {
+                    "two_letter_iso_country_code": "KH",
+                    "three_letter_iso_country_code": "KHM",
+                    "country_name": "Cambodia",
+                    "latitude": 11.5583,
+                    "longitude": 104.9121
+                },
+                "status": "active",
+                "pledge_amount": {
+                    "denom": "unym",
+                    "amount": "12233545463"
+                },
+                "total_delegation": {
+                    "denom": "unym",
+                    "amount": "894285887427"
+                },
+                "owner": "n1fjcp5pzzzhgzg4278r8r68jcffzn780nesf8m0",
+                "layer": 3,
+                "mix_node": {
+                    "host": "38.54.4.21",
+                    "mix_port": 1789,
+                    "verloc_port": 1790,
+                    "http_api_port": 8000,
+                    "sphinx_key": "FWDbxTFY4FjggZB7u5Zi1nL66BZgbbiasaXnEKSYQu7",
+                    "identity_key": "52szSBQQT1jcixpea6EafJdPZvFZhK4MW4Hohvuedami",
+                    "version": "1.1.6"
+                },
+                "stake_saturation": 0.9027023,
+                "uncapped_saturation": 0.9027023,
+                "avg_uptime": 99,
+                "node_performance": {
+                    "most_recent": "1",
+                    "last_hour": "1",
+                    "last_24h": "1"
+                },
+                "estimated_operator_apy": 1.295934958499e-06,
+                "estimated_delegators_apy": 1.8922264334e-07,
+                "operating_cost": {
+                    "denom": "unym",
+                    "amount": "40000000"
+                },
+                "profit_margin_percent": "0.07",
+                "family_id": null,
+                "blacklisted": false
+            },
+            "delegations": [
+                {
+                    "owner": "n1saq6enlrddvs7y9kepct4aqq0zvmqy30yqj238",
+                    "mix_id": 99,
+                    "cumulative_reward_ratio": "0",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "3840171560"
+                    },
+                    "height": 4317505,
+                    "proxy": "n1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq73f2nw"
+                },
+                {
+                    "owner": "n170y0k8ft9eve24tk0pqfzczyr57urcq69jte2j",
+                    "mix_id": 99,
+                    "cumulative_reward_ratio": "10144936.525886024246679228",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "250000000"
+                    },
+                    "height": 4863137,
+                    "proxy": "n1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq73f2nw"
+                },
+                {
+                    "owner": "n1saq6enlrddvs7y9kepct4aqq0zvmqy30yqj238",
+                    "mix_id": 99,
+                    "cumulative_reward_ratio": "0",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "537622725"
+                    },
+                    "height": 4317892,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1wvykg87udphzvshezaq3kqmw03r9tccv7umswk",
+                    "mix_id": 99,
+                    "cumulative_reward_ratio": "85807584.525817222419834058",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "27743727359"
+                    },
+                    "height": 13086785,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1x5mmn45eya8smqk24n4px9uqe7s6nf5hxgjlf9",
+                    "mix_id": 99,
+                    "cumulative_reward_ratio": "103203806.587476531223589708",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "850969662124"
+                    },
+                    "height": 13722093,
+                    "proxy": null
+                }
+            ],
+            "stats": {
+                "update_time": "2024-09-01T16:10:08.212571507Z",
+                "previous_update_time": "2024-09-01T16:09:38.210650221Z",
+                "packets_received_since_startup": 326419785,
+                "packets_sent_since_startup": 325439178,
+                "packets_explicitly_dropped_since_startup": 303806,
+                "packets_received_since_last_update": 6698,
+                "packets_sent_since_last_update": 6685,
+                "packets_explicitly_dropped_since_last_update": 0
+            }
+        },
+        {
+            "info": {
+                "mix_id": 111,
+                "location": {
+                    "two_letter_iso_country_code": "ZA",
+                    "three_letter_iso_country_code": "ZAF",
+                    "country_name": "South Africa",
+                    "latitude": -28.9984,
+                    "longitude": 23.9888
+                },
+                "status": "active",
+                "pledge_amount": {
+                    "denom": "unym",
+                    "amount": "1626861110"
+                },
+                "total_delegation": {
+                    "denom": "unym",
+                    "amount": "368293572922"
+                },
+                "owner": "n1wckhaac8zwtegvesaq8p3x4j5hcp0vx5sx3k4m",
+                "layer": 1,
+                "mix_node": {
+                    "host": "102.130.124.166",
+                    "mix_port": 1789,
+                    "verloc_port": 1790,
+                    "http_api_port": 8000,
+                    "sphinx_key": "8yqmCVxgKThdt9ko9pfDZQ67Wq7CyV2UGuxAHR5MCqgn",
+                    "identity_key": "5Y86A7fUX3LYVDDeoujtAiZFudYcHJq6gw8nsp71wN7U",
+                    "version": "1.1.5"
+                },
+                "stake_saturation": 0.36836275,
+                "uncapped_saturation": 0.36836275,
+                "avg_uptime": 100,
+                "node_performance": {
+                    "most_recent": "1",
+                    "last_hour": "1",
+                    "last_24h": "1"
+                },
+                "estimated_operator_apy": 1.5722844867274e-05,
+                "estimated_delegators_apy": 1.37024580772e-07,
+                "operating_cost": {
+                    "denom": "unym",
+                    "amount": "800000000"
+                },
+                "profit_margin_percent": "0.2",
+                "family_id": null,
+                "blacklisted": false
+            },
+            "delegations": [
+                {
+                    "owner": "n1vkw7mnt7wxkyxagraz9g9ak66dxq2pdruf228d",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "52067327.155225000542057749",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "3411244829"
+                    },
+                    "height": 4318385,
+                    "proxy": "n1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq73f2nw"
+                },
+                {
+                    "owner": "n1wckhaac8zwtegvesaq8p3x4j5hcp0vx5sx3k4m",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "286159671.264795200771486656",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "2502769324"
+                    },
+                    "height": 4317738,
+                    "proxy": "n1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrq73f2nw"
+                },
+                {
+                    "owner": "n14zgzah92uhk57e69xwzfsr9958rleqtdq8fvyr",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "221691262.961939679125673349",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "58000000"
+                    },
+                    "height": 11069766,
+                    "proxy": null
+                },
+                {
+                    "owner": "n16zl7wv867vecetzx0rqyq4tflt2h8vy03p8hp7",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "262204537.452980253246824857",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "58000000"
+                    },
+                    "height": 10710141,
+                    "proxy": null
+                },
+                {
+                    "owner": "n170q8y9wvu0a43v73lkchlgc8cyxhuzkt3m4qn2",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "292061954.424965249868933551",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "6662961880"
+                    },
+                    "height": 4317226,
+                    "proxy": null
+                },
+                {
+                    "owner": "n194m0zfw84vhnascg5hm6hvullujtqpgt4f6cry",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "203263156.421492890772245551",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "59384000000"
+                    },
+                    "height": 10278755,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1cw4qajjjxxp7y8rvjyl4hz6c6gushgkk0hx409",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "268933104.848916792023433509",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "6828224081"
+                    },
+                    "height": 12816713,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1gdk30q0ar92pwea4prj99h2yl7lea8qd5q09zs",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "278496787.63908065764814377",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "3876256511"
+                    },
+                    "height": 13198299,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1h5sfqvsysdx8l023d2uxpfsg9c72hxsqexmwvv",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "288867552.966472702908554018",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "4115543672"
+                    },
+                    "height": 7197115,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1l9d0jdzrm738kdjw33nrczlmf3mmwpcdjnhx8e",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "276170374.657825764095585796",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "420000000"
+                    },
+                    "height": 13102149,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1pag8jlm4dqn7xlhcczmgye88f8cl433820sjz7",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "46160925.429025875138533697",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "3702000000"
+                    },
+                    "height": 5423219,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1rnxpdpx3kldygsklfft0gech7fhfcux4zst5lw",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "287524464.52626576047363302",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "250000000000"
+                    },
+                    "height": 13856900,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1skvtqlx8u2gdxkfu8altg9agpglqpw9y8mswaq",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "15545616.763842530159503282",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "2919000000"
+                    },
+                    "height": 4706332,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1t2hnr4ukuymc7pg0cav925na4yehhv9t6gpsdl",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "287611867.872878025029743748",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "3500058820"
+                    },
+                    "height": 13869764,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1vkw7mnt7wxkyxagraz9g9ak66dxq2pdruf228d",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "52095474.418550197775956087",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "774417518"
+                    },
+                    "height": 5561370,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1wckhaac8zwtegvesaq8p3x4j5hcp0vx5sx3k4m",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "286178562.630275203698327874",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "9019709755"
+                    },
+                    "height": 13702355,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1x4w63xqsstq0plxua5p2dw0e3hrvckusqjxky5",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "278496787.63908065764814377",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1450095928"
+                    },
+                    "height": 13198299,
+                    "proxy": null
+                },
+                {
+                    "owner": "n1zxdgwyf6szufzn8n8xjh75z8639y0z80gjx8dh",
+                    "mix_id": 111,
+                    "cumulative_reward_ratio": "287458510.717228801218581822",
+                    "amount": {
+                        "denom": "unym",
+                        "amount": "1014727968"
+                    },
+                    "height": 4317968,
+                    "proxy": null
+                }
+            ],
+            "stats": {
+                "update_time": "2024-09-01T16:09:59.911420350Z",
+                "previous_update_time": "2024-09-01T16:09:29.910889808Z",
+                "packets_received_since_startup": 256341073,
+                "packets_sent_since_startup": 255503696,
+                "packets_explicitly_dropped_since_startup": 293963,
+                "packets_received_since_last_update": 6555,
+                "packets_sent_since_last_update": 6555,
+                "packets_explicitly_dropped_since_last_update": 0
+            }
+        }
+    ]
+}

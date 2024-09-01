@@ -1,16 +1,16 @@
 class ErrorText:
-    EMPTY_COMMAND = "добавь node_id"
-    NOT_NUMBER = "node_id должено быть целым числом"
+    EMPTY_COMMAND = "add node_id"
+    NOT_NUMBER = "node_id must be integer"
 
 class TextMessage:
     HELP = """
-node_id можно получить на сайте:
+node_id can be obtained on the website:
 explorer.nymtech.net
 ___________________________________________
-/add node_id - добавляет mix-node в базу
-/del node_id - удаляет mix-node из базы
-/help - помощь
-/restart - перезапуск бота
+/add node_id - adds mix-node to the database
+/del node_id - removes mix-node from the database
+/help - HALP!!!
+/restart - restart
     """
 is_active = ["🟢", "⚪️"]
 

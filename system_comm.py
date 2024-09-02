@@ -8,7 +8,7 @@ from aiogram import html
 from classes import MixNode
 
 
-def new_user(file: str, username: str, lang: str) -> bool:
+def new_user(file: str, username: str = "", lang: str = "") -> bool:
     file = str(file)
     with open(f'users/{file}.json', 'w') as f:
         empy_user = {

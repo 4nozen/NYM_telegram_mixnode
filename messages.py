@@ -4,6 +4,13 @@ class ErrorText:
 
 class TextMessage:
     HELP = """
+* basic mixnode parameters
+* installed and current version of the mixnode
+* is the node blacklisted
+* add and remove monitoring mixnodes
+* as well as the appearance of a new delegator and the departure of the delegator from the node
+* dead nodes should not be added
+
 node_id can be obtained on the website:
 explorer.nymtech.net
 ___________________________________________

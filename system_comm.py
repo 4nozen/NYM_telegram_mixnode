@@ -61,7 +61,7 @@ def get_mixnode_info(user_id:str, mix_node_id: str) -> str:
         {html.italic('    received')}: {html.bold('{:,d}'.format(out_stats['packets_received_since_startup']))}\n\
         {html.italic('           sent')}: {html.bold('{:,d}'.format(out_stats['packets_sent_since_startup']))}\n\
         {html.italic('    dropped')}: {html.bold('{:,d}'.format(out_stats['packets_explicitly_dropped_since_startup']))}\n\
-    {html.italic('bond')}: {html.bold('{:,d}'.format(int(out_info['pledge_amount']['amount'])))} NYM\n\
+    {html.italic('bond')}: {html.bold(float(out_info['pledge_amount']['amount'])/1000000)} NYM\n\
     ")
 
     

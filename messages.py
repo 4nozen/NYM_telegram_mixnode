@@ -7,8 +7,8 @@ class TextMessage:
 node_id can be obtained on the website:
 explorer.nymtech.net
 ___________________________________________
-/add node_id - adds mix-node to the database
-/del node_id - removes mix-node from the database
+/add node_id - adds mix-node (mixnode numder) to the database
+/del node_id - removes mix-node (mixnode numder) from the database
 /help - HALP!!!
 /restart - restart
     """

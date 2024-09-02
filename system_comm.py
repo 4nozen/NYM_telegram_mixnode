@@ -57,8 +57,8 @@ def get_mixnode_info(user_id:str, mix_node_id: str) -> str:
     {html.italic('performance 24h')}: {html.bold(float(out_info['node_performance']['last_24h'])*100)}%\n\
     {html.italic('op.cost')}: {html.bold(float(out_info['operating_cost']['amount'])/1000000)} NYM   {html.italic('profit')}: {html.bold(round(float(out_info['profit_margin_percent'])*100))}%\n\
     {html.italic('delegators')}: {html.bold(len(out_deleg))}\n\
-    {html.italic('delegation')}: {html.bold('{:,d}'.format(int(out_info['total_delegation']['amount'])))} NYM\n\
-        {html.italic('    received')}: {html.bold('{:,d}'.format(out_stats['packets_received_since_startup']))}\n\
+    {html.italic('delegation')}: {html.bold(float(out_info['total_delegation']['amount'])/1000000)} NYM\n\
+    {html.italic('    received')}: {html.bold('{:,d}'.format(out_stats['packets_received_since_startup']))}\n\
         {html.italic('           sent')}: {html.bold('{:,d}'.format(out_stats['packets_sent_since_startup']))}\n\
         {html.italic('    dropped')}: {html.bold('{:,d}'.format(out_stats['packets_explicitly_dropped_since_startup']))}\n\
     {html.italic('bond')}: {html.bold(float(out_info['pledge_amount']['amount'])/1000000)} NYM\n\

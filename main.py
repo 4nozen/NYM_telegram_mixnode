@@ -45,7 +45,7 @@ async def cmd_start(message: types.Message):
     new_user(message.from_user.id, message.from_user.username, message.from_user.language_code)
     logger.debug(f"{message.from_user.id}: /start|restart")
     kb_mixnode_list(message.from_user)
-    await message.bot.send_message(message.chat.id, f"echo: {message.text}", reply_markup=builder_mixnodes_list.as_markup(resize_keyboard=True))
+    await message.bot.send_message(message.chat.id, TextMessage.HELP, reply_markup=builder_mixnodes_list.as_markup(resize_keyboard=True))
 
 
 @dp.message(Command("help"))

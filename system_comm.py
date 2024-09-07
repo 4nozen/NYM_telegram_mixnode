@@ -62,6 +62,7 @@ def get_mixnode_info(user_id:str, mix_node_id: str) -> str:
         {html.italic('           sent')}: {html.bold('{:,d}'.format(out_stats['packets_sent_since_startup']))}\n\
         {html.italic('    dropped')}: {html.bold('{:,d}'.format(out_stats['packets_explicitly_dropped_since_startup']))}\n\
     {html.italic('bond')}: {html.bold(float(out_info['pledge_amount']['amount'])/1000000)} NYM\n\
+    {html.italic('NYM price')}: {html.bold(nym_price)}\n\
     ")
 
     
@@ -73,6 +74,13 @@ def get_explorer_mixnode_json(mix_node_id: str, endpoint: str) -> None or dict:
     else:
         return False
 
+def get_nym_price():
+    response = get('https://iapi.kraken.com/api/internal/markets/all/assets', headers=headers_krack)
+    if response.status_code == 200:
+        for key in response.json()["result"]["data"]:
+            if key["symbol"] == "NYM":
+                return str(key["price"])
+    else: return "Nope!"
 
 def add_mixnode(user_id: int, node_id: str) -> bool:
     user_id = str(user_id)

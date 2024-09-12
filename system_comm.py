@@ -37,8 +37,8 @@ def get_mixnode_info(user_id:str, mix_node_id: str) -> str:
     with open(f'users/{user_id}.json', 'r') as f:
         data_from_file = json.load(f)
     out_info = {}
-    cur_version = get('https://api.github.com/repos/nymtech/nym/releases/latest', headers).json()['tag_name']
-    current_version = get(f'https://github.com/nymtech/nym/releases/download/{cur_version}/hashes.json').json()['assets']['nym-node']['details']['build_version']
+    # cur_version = get('https://api.github.com/repos/nymtech/nym/releases/latest', headers).json()['tag_name']
+    # current_version = get(f'https://github.com/nymtech/nym/releases/download/{cur_version}/hashes.json').json()['assets']['nym-node']['details']['build_version']
     for i in data_from_file['mixnodes']:
         if i['info']['mix_id'] == int(mix_node_id):
             out_info = i['info']
@@ -47,7 +47,7 @@ def get_mixnode_info(user_id:str, mix_node_id: str) -> str:
         else:
             continue
         return (f"\
-    {html.italic(html.underline('mixnode info'))} №: {html.bold(mix_node_id)}\n\
+    {html.italic(html.underline('mixnode info'))} explorer №:{html.link(mix_node_id, 'https://explorer.nymtech.net/network-components/mixnode/'+mix_node_id)}\n\
     {html.italic('ip')}: {html.bold(out_info['mix_node']['host'])}\n\
     {html.italic('country')}: {html.bold(out_info['location']['country_name'])} {next((_['emoji'] for _ in countrie_flags if out_info['location']['country_name'] == _['name']), None)}\n\
     {html.italic('status')}: {html.bold(out_info['status'])} {is_active[0]if out_info['status'] == 'active' else is_active[1]}\n\
